@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AyeshaTestAy1">
         <activity
+            android:name=".Sh2Acitivity"
+            android:exported="false" />
+        <activity
             android:name=".Ay1Activity1"
             android:exported="true">
             <intent-filter>
