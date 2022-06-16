@@ -24,10 +24,10 @@ public class Ay1Activity1 extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Ay1Activity1.this);
+                Intent intent = new Intent(Ay1Activity1.this, Sh2Acitivity.class);
+                startActivity(intent);
             }
         });
-
     }
 
 
